@@ -10,11 +10,10 @@ export class ProfessoresComponent implements OnInit {
   titulo = "Professores";
 
   public professores = [
-    {nome:"Spike"},
-    {nome:"Ton"},
-    {nome:"Jerry"}
-  ];
-
+    {id: 1, nome:"Ton", disciplina: "Matematica"},
+    {id: 2, nome:"Jerry", disciplina: "Ingles"},
+    {id: 3, nome:"Spike", disciplina: "Programacao"}
+  ]
   constructor() { }
 
   ngOnInit() {
